@@ -1,0 +1,154 @@
+body {
+    background-color: #f8f9fa; /* Light gray background for the entire page */
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: #fff; /* White box for the form */
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    margin-top: 20px;
+  }
+  
+  h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+  }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  label {
+    margin-bottom: 8px;
+    color: #555;
+  }
+  
+  select {
+    padding: 10px;
+    margin-bottom: 16px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    appearance: none; /* Remove default browser styling for select elements */
+    background-color: #fff; /* Set background color to white */
+    background-image: url('down-arrow.svg'); /* Add a custom down arrow icon */
+    background-position: right center; /* Position the icon at the right center of the select element */
+    background-repeat: no-repeat; /* Prevent the icon from repeating */
+  }
+  
+  option {
+    padding: 5px;
+  }
+  
+  select:focus {
+    outline: none;
+    border: 1px solid #007bff; /* Change border color to blue on focus */
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 16px;
+  }
+  
+  .input-group label {
+    width: 100px;
+    text-align: right;
+    margin-right: 10px;
+  }
+  
+  input {
+    padding: 10px;
+    flex: 1;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+  }
+  
+  button {
+    background-color: #007bff; /* Blue button */
+    color: #fff;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 20px;
+  }
+  
+  button:hover {
+    background-color: #0069d9; /* Darken the blue button on hover */
+  }
+  
+  body {
+    background-color: #f8f9fa;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    height: 100vh;
+}
+
+.sidebar {
+    height: 100%;
+    width: 200px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #007bff;
+    padding-top: 20px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 20px;
+}
+
+button {
+    background-color: #0056b3;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+    width: 150px;
+}
+
+button:hover {
+    background-color: #004080;
+}
+
+.form-container {
+    margin-left: 220px; /* Adjusted to make space for the sidebar */
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    width: 500px;
+    margin-top: 20px;
+}
+
+h2 {
+    text-align: center;
+    color: #333;
+    margin-bottom: 20px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+/* Add or modify styles as needed */
